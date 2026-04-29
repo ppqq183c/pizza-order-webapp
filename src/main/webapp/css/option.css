@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* ドロップダウンメニュー全体 */
+.dropdown-menu {
+    background-color: #1e1e2f; /* 濃いネイビー */
+    border: none;
+    border-radius: 0.5rem; /* 角丸 */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3); /* 影 */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(0.5rem);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* ドロップダウンが開いたとき */
+.dropdown-menu.show {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* ドロップダウンアイテム */
+.dropdown-item {
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    transition: background 0.2s, color 0.2s;
+    font-weight: 500;
+}
+
+/* ホバー時 */
+.dropdown-item:hover {
+    background: #ff4d4f; /* 赤っぽいアクセント */
+    color: #fff;
+}
+
+/* ドロップダウンのボタン */
+.nav-link.dropdown-toggle {
+    transition: color 0.2s;
+}
+
+.nav-link.dropdown-toggle:hover {
+    color: #ff4d4f;
+}
+
+/* メニューのボタン */
+.nav-link.menu-button {
+    transition: color 0.2s;
+}
+
+.nav-link.menu-button:hover {
+    color: #ff4d4f;
+}
+
+.navbar-brand.btn-link {
+    color: #ffffff;              /* 文字色は常に白 */
+    background-color: transparent; /* 背景透明 */
+    border: none;                 /* ボーダーなし */
+    text-decoration: none;        /* 下線を消す */
+}
+
+/* クリック・フォーカス時も色を変えない */
+.navbar-brand.btn-link:focus,
+.navbar-brand.btn-link:active,
+.navbar-brand.btn-link:hover {
+    color: #ffffff;               /* 常に白 */
+    background-color: transparent; /* 背景は透明 */
+    box-shadow: none;             /* Bootstrap のフォーカスアウトラインを消す */
+    outline: none;                /* デフォルトブラウザのアウトラインも消す */
+}
+

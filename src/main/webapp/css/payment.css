@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f8f9fa;
+	padding-top: 70px;
+}
+
+.card {
+	border-radius: 3px;
+}
+
+/* ===== セクション見出し ===== */
+.section-title {
+	display: flex;
+	align-items: center;
+	margin: 2.5rem 0 1.5rem;
+	font-weight: bold;
+}
+
+.section-title::before,
+.section-title::after {
+	content: "";
+	flex: 1;
+	border-top: 1px solid #dee2e6;
+}
+
+.section-title span {
+	padding: 0 1rem;
+}
+
+/* 注文行 */
+.order-row {
+	display: grid;
+	grid-template-columns: 1fr 80px 120px;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+/* 商品名 */
+.item-name {
+	overflow-wrap: break-word;
+}
+
+/* 数量 */
+.item-qty {
+	text-align: right;
+}
+
+/* 金額 */
+.item-price {
+	text-align: right;
+	font-weight: 500;
+}
+
+
+
+.order-separator {
+	margin: 6px 0 10px;
+	border-top: 1px solid #dee2e6;
+}
+
+/* ===== 必須未入力 ===== */
+.was-validated .form-control:invalid {
+	border-color: #dc3545;
+}
+
+/* ===== 任意入力：入力時のみ緑枠 ===== */
+.optional-filled {
+	border-color: #198754 !important;
+}
+
+/* ===== Bootstrap標準valid無効 ===== */
+.was-validated .form-control:valid,
+.form-control.is-valid {
+	background-image: none !important;
+	box-shadow: none !important;
+}
+
+/* placeholder の文字を小さくする */
+.form-control::placeholder {
+	font-size: 1.2rem;
+	/* 好みで調整（0.8〜0.9remが一般的） */
+	color: #adb5bd;
+	/* Bootstrapの薄いグレー */
+	line-height: 150;
+}
+
+.form-control:focus {
+	border-width: 1px;
+	border-color: rgb(128, 128, 128);
+	/* Bootstrapのinfo色 */
+	box-shadow: none;
+}
+
+input[readonly] {
+	background-color: #f8f9fa;
+}
