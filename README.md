@@ -75,8 +75,8 @@ DB構築
 
 ## スクリーンショット
 
-![customer_screen1]
+![campaign_screen1](images/campaign_image(1).jpg)
 
-![customer_screen2]
+![campaign_screen2]
 
 ![homemenu_screen]
