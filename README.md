@@ -21,3 +21,10 @@ Java(Servlet/JSP)で作成したピザ注文Webアプリ
 
 ## 担当範囲
 
+DAO<br>
+src/main/java/dao/GetImageDBAcess.java<br>
+src/main/java/dao/GetImage_CampaignDBAccess.java<br>
+src/main/java/dao/ItemDAO.java<br>
+src/main/java/dao/ItemMenuDisplayDBAccess.java<br>
+src/main/java/dao/SearchAllMenuDBAccess.java<br>
+src/main/java/dao/Campaign_DesignListDBAccess.java<br>
