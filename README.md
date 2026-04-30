@@ -63,3 +63,10 @@ Java(Servlet/JSP)で作成したピザ注文Webアプリ
 
 - `src/main/java/model/Campaign.java`
 - `src/main/java/model/Item.java`
+
+### JSP
+
+- `src/main/webapp/HomePage.jsp`
+- `src/main/webapp/campaign.jsp`
+
+## 工夫・苦労した点
