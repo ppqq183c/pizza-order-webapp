@@ -11,13 +11,11 @@ Java(Servlet/JSP)で作成したピザ注文Webアプリ
 注文処理、カート管理、画面遷移の最適化などを通じて、
 ユーザー体験を意識した設計・実装を行っています。
 
-バックエンドはJava（Servlet / JSP）、データベースはMySQLを使用しています。
-
 ## 技術構成
 
 フロントエンド：JSP,HTML,CSS
 
-バックエンド：java(Servlet)
+バックエンド：Java(Servlet)
 
 データベース：MySQL
 
