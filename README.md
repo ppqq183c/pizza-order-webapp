@@ -73,10 +73,17 @@ Java(Servlet/JSP)で作成したピザ注文Webアプリ
 
 DB構築
 
-## スクリーンショット
+## 画像
+
+本アプリは学校の貸与PCで開発を行っていたため、
+開発環境を現在は保持しておらず、実際の画面キャプチャは残っていません。
+
+そのため、掲載している画像は開発当時に撮影した参考用の写真となります。
 
 ![campaign_screen1](images/campaign_image(1).jpg)
 
 ![campaign_screen2](images/campaign_image(2).jpg)
 
-![homemenu_screen]
+![homemenu_screen](images/homepage_img.jpg)
+
+※これらの画像の作品は学習目的であり、商用利用を目的としたものではありません。
