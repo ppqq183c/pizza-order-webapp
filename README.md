@@ -1,7 +1,7 @@
 # pizza-order-webapp
 Java(Servlet/JSP)で作成したピザ注文Webアプリ
 
-##概要
+## 概要
  
 本アプリは、ユーザーがブラウザからピザを注文できるWebアプリケーションです。
 
