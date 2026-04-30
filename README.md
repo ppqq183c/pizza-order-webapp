@@ -75,3 +75,8 @@ DB構築
 
 ## スクリーンショット
 
+![customer_screen1]
+
+![customer_screen2]
+
+![homemenu_screen]
