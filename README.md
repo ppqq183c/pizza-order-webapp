@@ -77,6 +77,6 @@ DB構築
 
 ![campaign_screen1](images/campaign_image(1).jpg)
 
-![campaign_screen2]
+![campaign_screen2](images/campaign_image(2).jpg)
 
 ![homemenu_screen]
