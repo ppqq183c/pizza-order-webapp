@@ -46,3 +46,9 @@ Java(Servlet/JSP)で作成したピザ注文Webアプリ
 - `src/main/java/dao/ItemMenuDisplayDBAccess.java`
 - `src/main/java/dao/SearchAllMenuDBAccess.java`
 - `src/main/java/dao/Campaign_DesignListDBAccess.java`
+
+### Control
+
+- `src/main/java/control/ImageServlet.java`
+- `src/main/java/control/ImageServlet_campaign.java`
+- `src/main/java/control/SizeServlet.java`
